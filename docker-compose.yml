@@ -33,15 +33,15 @@ services:
   #   command: >
   #     sh -c "yarn install && yarn start"
 
-  my-mongodb:
-    image: mongo:bionic
-    ports:
-      - 27017:27017
-    environment:
-      - MONGO_INITDB_DATABASE=AppDB
-    volumes:
-      # seeding scripts
-      - ./mongo-entrypoint:/docker-entrypoint-initdb.d
+  # my-mongodb:
+  #   image: mongo:bionic
+  #   ports:
+  #     - 27017:27017
+  #   environment:
+  #     - MONGO_INITDB_DATABASE=AppDB
+  #   volumes:
+  #     # seeding scripts
+  #     - ./mongo-entrypoint:/docker-entrypoint-initdb.d
       # named volumes
       # - mongodb:/data/db
       # - mongoconfig:/data/configdb
