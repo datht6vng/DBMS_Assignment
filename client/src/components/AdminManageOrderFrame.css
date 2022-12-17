@@ -1,0 +1,119 @@
+.admin-orders-list {
+  animation: example 700ms ease-out;
+  animation-fill-mode: backwards;
+  transition: transform 0.2s;
+  font-family: Oleo Script Swash Caps;
+  font-size: 150%;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
+}
+
+.admin-confirm-order-button-active {
+  font-family: Poppins;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 40px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #15c240;
+  text-decoration: none;
+  border: none;
+  width: 30%;
+  margin-right: 5%;
+}
+
+.admin-order-button-not-active {
+  font-family: Poppins;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 40px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: gray;
+  text-decoration: none;
+  border: none;
+  width: 30%;
+  margin-right: 5%;
+}
+
+.admin-deny-order-button-active {
+  font-family: Poppins;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 40px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #b91e1e;
+  text-decoration: none;
+  border: none;
+  width: 30%;
+  margin-right: 5%;
+}
+
+.admin-detail-button-active {
+  font-family: Poppins;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 40px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #e1651f;
+  text-decoration: none;
+  border: none;
+  width: 30%;
+  margin-right: 5%;
+}
+
+.admin-order-customer-email {
+  display: flex;
+  width: 25%;
+  justify-content: center;
+}
+
+.admin-delete-order-button {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+}
+
+.admin-order-id {
+  display: flex;
+  width: 15%;
+  justify-content: center;
+}
+
+.admin-order-cost {
+  display: flex;
+  width: 15%;
+  justify-content: center;
+}
+
+.admin-order-status {
+  display: flex;
+  width: 15%;
+  justify-content: center;
+}

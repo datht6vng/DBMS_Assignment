@@ -1,0 +1,260 @@
+.post-item {
+  --stagger-delay: 100ms;
+}
+
+@keyframes example {
+  from {
+    opacity: 0;
+    transform: scale(0.3);
+    filter: hue-rotate(180deg);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+    filter: hue-rotate(0deg);
+  }
+}
+
+.post-name {
+  font-family: Oleo Script Swash Caps;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1c1c1c;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 10px 0px;
+  animation: example 700ms ease-out;
+  animation-fill-mode: backwards;
+  transition: transform 0.2s;
+}
+
+.post-img {
+  height: 290px;
+  left: 192px;
+  top: 196px;
+  border-radius: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 25px;
+  animation: example 700ms ease-out;
+  animation-fill-mode: backwards;
+  transition: transform 0.2s;
+}
+
+.post-Ingredient {
+  font-family: Oleo Script Swash Caps;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 18px 0px;
+  animation: example 700ms ease-out;
+  animation-fill-mode: backwards;
+  transition: transform 0.2s;
+}
+
+.post-desc {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  left: 482px;
+  right: 430px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: auto 100px;
+  animation: example 700ms ease-out;
+  animation-fill-mode: backwards;
+  transition: transform 0.2s;
+  color: hsl(210, 22%, 49%);
+  display: flex;
+  justify-content: center;
+}
+
+.post-price {
+  font-family: Oleo Script Swash Caps;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 18px 0px;
+  animation: example 700ms ease-out;
+  animation-fill-mode: backwards;
+  transition: transform 0.2s;
+}
+
+.post-button-BTM {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+  /* white */
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 28px;
+  /* primary */
+  background: #e1651f;
+  border-radius: 39px;
+  border: none;
+  /* Inside Auto Layout */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  animation: example 700ms ease-out;
+  animation-fill-mode: backwards;
+  transition: transform 0.2s;
+}
+
+.post-button-ATC {
+  position: static;
+  width: 143px;
+  height: 38px;
+  left: 62px;
+  top: 20.5px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 160%;
+  /* or 38px */
+  /* primary */
+  color: #e1651f;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 10px;
+  width: 267px;
+  height: 79px;
+  left: 599px;
+  top: 855px;
+  background: rgba(232, 107, 38, 0.08);
+  border-radius: 25px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  animation: example 700ms ease-out;
+  animation-fill-mode: backwards;
+  transition: transform 0.2s;
+}
+
+.menu-detail-ratings {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  animation: example 700ms ease-out;
+  animation-fill-mode: backwards;
+  transition: transform 0.2s;
+}
+
+.menu-detail-star {
+  position: relative;
+  line-height: 60px;
+  display: inline-block;
+  transition: color 0.2s ease;
+  color: #ebebeb;
+  animation: example 700ms ease-out;
+  animation-fill-mode: backwards;
+  transition: transform 0.2s;
+}
+
+.menu-detail-star:before {
+  content: "\2605";
+  width: 60px;
+  height: 60px;
+  font-size: 60px;
+  animation: example 700ms ease-out;
+  animation-fill-mode: backwards;
+  transition: transform 0.2s;
+}
+
+.menu-detail-star.menu-detail-selected {
+  color: #ffc700;
+}
+
+.food-rating-wrapper {
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+  animation: example 700ms ease-out;
+  animation-fill-mode: backwards;
+  transition: transform 0.2s;
+}
+
+.food-rating-title {
+  font-family: Oleo Script Swash Caps;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 18px 0px;
+  animation: example 700ms ease-out;
+  animation-fill-mode: backwards;
+  transition: transform 0.2s;
+}
+
+.food-rating-star {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.menu-detail-back-ground {
+  padding-top: 10px;
+}
+
+.quantity-popup-content {
+  background: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 10px;
+  max-width: 30%;
+  max-height: 80%;
+  overflow: auto;
+  position: absolute;
+}
+
+.menu-detail-back-ground .forget-password-form-wrapper {
+  width: 50%;
+  margin: auto;
+}
+
+.menu-detail-back-ground .btn-confirm {
+  width: 20%;
+}

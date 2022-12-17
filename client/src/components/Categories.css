@@ -1,0 +1,15 @@
+.categories-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-color: black;
+    border-radius: 10px;
+    background-color: rgba(227, 227, 227, 0.4);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.category-icon {
+    width: 30px;
+    height: auto;
+}

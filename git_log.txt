@@ -1,0 +1,989 @@
+commit 47d25687c9e58320b7f6bf4c99b3391d31e64cc3
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Sat Dec 4 04:58:45 2021 +0700
+
+    Fix bug with alert
+
+commit a0b44aa87a022467aaa335a2bd79adc474f7d248
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Sat Dec 4 04:39:58 2021 +0700
+
+    Delete alert before another code section because it will break at alert point
+
+commit 389b7f532bafb1bdeef29496cfd0af29d7bc5faa
+Merge: 6354833 79ff197
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Sat Dec 4 04:32:14 2021 +0700
+
+    Merge branch 'main' of https://github.com/spitliner/CNPM-DN into Dat
+
+commit 6354833455ea06c5d58aea5819f6b964918fbb43
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Sat Dec 4 04:30:41 2021 +0700
+
+    Fix some bug in feature by Dat Huynh
+
+commit 79ff19764ef8caaa52f3b6d36a1e4b55160063e3
+Author: Huỳnh Đức Thịnh <58225765+hdthinh1012@users.noreply.github.com>
+Date:   Fri Dec 3 23:24:22 2021 +0700
+
+    Update README.md
+
+commit efdf32ff30abf96692b3c787495632e8b33d16b6
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Fri Dec 3 22:26:16 2021 +0700
+
+    Add manage order, filter order reservation by date
+
+commit 397a40bb9a9093666491a5b24411bb6665857522
+Merge: a0858d9 f0d63ec
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Fri Dec 3 15:42:56 2021 +0700
+
+    Merge branch 'main' of https://github.com/spitliner/CNPM-DN into thinh
+    Merge Thinh To Main
+
+commit a0858d902d4827d594987802fe2a032e9a60990e
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Fri Dec 3 15:42:30 2021 +0700
+
+    Add dish, delete dish
+
+commit f0d63ecd7b2eab4954304d126c1d34ce000349b9
+Author: Hồ Đức Trí <tri.ho_dt_bd@hcmut.edu.vn>
+Date:   Fri Dec 3 14:02:14 2021 +0700
+
+    add admin reservation
+
+commit ef3b8d6bee931573ffe767a98c2e2ab6371005f5
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Fri Dec 3 02:35:26 2021 +0700
+
+    merge commit
+
+commit 38cedc0c85c80928793ff1acaef2915ffa105f02
+Merge: 4be2f3e 9766d5e
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Fri Dec 3 02:33:23 2021 +0700
+
+    Merge branch 'main' of https://github.com/spitliner/CNPM-DN into thinh
+
+commit 4be2f3e1bd1e0721c3569972fc31203d34d8111a
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Fri Dec 3 02:30:26 2021 +0700
+
+    Add admin edit dish
+
+commit 9766d5eafc380807318cc30cd6a1f22b2f4a4420
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Fri Dec 3 01:38:03 2021 +0700
+
+    Fix some bug in feature by Dat Huynh
+
+commit 2bb83825c3c6694651c0119674e84410c5b488a4
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Fri Dec 3 00:27:39 2021 +0700
+
+    Fix some bug in feature by Dat Huynh
+
+commit 2ea12460e70943203fc7b281b82a9bf90932fb86
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Fri Dec 3 00:21:47 2021 +0700
+
+    Fix some bug in feature by Dat Huynh
+
+commit bf4862f61e8ef58288f8b1ceeb9b262851be72a5
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Dec 2 19:47:03 2021 +0700
+
+    Add manage reservation feature by Dat Huynh
+
+commit 448b3e4e0b8cdd9c9eed550ab572071d9caeef20
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Dec 2 18:37:40 2021 +0700
+
+    Add manage reservation feature by Dat Huynh
+
+commit 00357408f864423602d9d0498c047c1c65c4c312
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Dec 2 18:12:48 2021 +0700
+
+    Add manage reservation feature by Dat Huynh
+
+commit 92c1c0bb571e3cfa3ca0003c2be680143c29e9bf
+Merge: 12e5640 aceaced
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Dec 2 17:06:17 2021 +0700
+
+    Merge branch 'main' of https://github.com/spitliner/CNPM-DN
+
+commit 12e56406a1a2d77f7ad35a5043003bb5f626d024
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Dec 2 10:25:42 2021 +0700
+
+    Add verify email feature by Dat Huynh
+
+commit aceaced547eb4f846df2861618b933e01c40fb2f
+Author: spitliner <73539619+spitliner@users.noreply.github.com>
+Date:   Thu Dec 2 10:14:14 2021 +0700
+
+    update server pug to 3.0.2
+
+commit 20f6138e667e5edaf5aada83476cf9a3801567d1
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Dec 2 10:09:08 2021 +0700
+
+    Add verify email feature by Dat Huynh
+
+commit 034a43dfa9333fe13d2e8536257c658db64d07f2
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Dec 2 09:53:59 2021 +0700
+
+    Add verify email feature by Dat Huynh
+
+commit e883e712c9c7832405dbca2dc916272276e8a42e
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Dec 2 07:16:24 2021 +0700
+
+    Add verify email feature by Dat Huynh
+
+commit 43e1bd0c2982f573071eec30332b6786c03bfaf5
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Dec 2 07:13:19 2021 +0700
+
+    Add verify email feature by Dat Huynh
+
+commit dc09f3284a8b534edd606201d368a7cf691f650b
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Dec 2 07:05:25 2021 +0700
+
+    Add verify email feature by Dat Huynh
+
+commit 29f2a599d988fcfd20eda97c36f2669c13d5ae2e
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Dec 2 06:52:52 2021 +0700
+
+    Add verify email feature by Dat Huynh
+
+commit dfab2c4e36df39470b1f910ba5ebaf87cbbad86e
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Dec 2 06:13:35 2021 +0700
+
+    Add verify email feature by Dat Huynh
+
+commit eae37ac0534cdd752b12b52743b08354c1a4fdfd
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Dec 2 05:28:49 2021 +0700
+
+    Add verify email feature by Dat Huynh
+
+commit b7fe25185e2ace411da41f9a429c7aa509b970fc
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Dec 2 03:54:33 2021 +0700
+
+    Fix bug in star vote by Dat Huynh
+
+commit a1514d843021342839382ce47711972af063e5bd
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Dec 2 03:32:30 2021 +0700
+
+    Update some change backend by Dat Huynh
+
+commit 61b8f67b9823fb57ed0a3c248e489f819e1451f9
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Dec 2 01:12:01 2021 +0700
+
+    Update some change backend by Dat Huynh
+
+commit 9871372f9c42f286c381b17524ae6292a8f283e2
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Dec 2 01:03:50 2021 +0700
+
+    Update some change backend by Dat Huynh
+
+commit 6230454a93916c40b9471e11634c51c5c049c9c8
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Dec 1 23:58:33 2021 +0700
+
+    Update some change backend by Dat Huynh
+
+commit 764ac28e4b05ff73b021ef58e12c01772c5fbd95
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Dec 1 22:59:46 2021 +0700
+
+    Update some change backend by Dat Huynh
+
+commit f9c4fae443f109f21bcd9a7a4aada16260604eee
+Merge: 905a0a3 01c308f
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Dec 1 22:15:52 2021 +0700
+
+    Merge branch 'Dat'
+
+commit 01c308f1ea1cf38f0eddd216379c97b301d88248
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Dec 1 22:15:42 2021 +0700
+
+    Update Manage Order by Dat Huynh
+
+commit 8e666ea05d513ffbe1cd50b0ef93c0de745fc6af
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Dec 1 21:39:54 2021 +0700
+
+    Update Manage Order by Dat Huynh
+
+commit 905a0a37b9c0487c26f21a7a718355385223dda0
+Merge: 3574095 716aeed
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Dec 1 17:20:24 2021 +0700
+
+    Merge branch 'main' of https://github.com/spitliner/CNPM-DN
+
+commit 3574095e2cbfacf27cdfb86956145dd80e2b04b6
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Dec 1 17:20:02 2021 +0700
+
+    Update Manage Order by Dat Huynh
+
+commit 716aeedf5f47a62f2689c717f38942051d470724
+Author: Huỳnh Đức Thịnh <58225765+hdthinh1012@users.noreply.github.com>
+Date:   Wed Dec 1 16:09:25 2021 +0700
+
+    Update README.md
+
+commit e880b1481d7b66838cc754ca52b7ee8346a1ba2c
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Dec 1 08:03:52 2021 +0700
+
+    Update Manage Order by Dat Huynh
+
+commit c67fdb77bee8bfaf8639d532fadc74119a4804e6
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Dec 1 07:58:03 2021 +0700
+
+    Update Manage Order by Dat Huynh
+
+commit 181ef321a09b4247e78f676cc18ea0937f29f2e4
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Dec 1 07:55:26 2021 +0700
+
+    Update Manage Order by Dat Huynh
+
+commit ff220863e08ec61686de8cd06b0f3530154ab35e
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Dec 1 07:34:22 2021 +0700
+
+    Update Manage Order by Dat Huynh
+
+commit e8d92b138e4b2df57e11a538aa640376b97fdf18
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Dec 1 06:32:24 2021 +0700
+
+    Update Manage Order by Dat Huynh
+
+commit 67f2ac2dcd5075266605dcccc7a96864e65e173d
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Dec 1 04:47:03 2021 +0700
+
+    Update Manage Order by Dat Huynh
+
+commit e9cdab03623cdaa6832f9c25e79892b9e8f85190
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Tue Nov 30 23:02:05 2021 +0700
+
+    Update role by Dat Huynh
+
+commit 72d58ecd7b6acd1f8d7017be74ea28ef2896dc08
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Tue Nov 30 20:50:22 2021 +0700
+
+    Update footer by Dat Huynh
+
+commit 1028b36d7ca3d5c705a2da4480c3bc454bccba4f
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Tue Nov 30 20:05:10 2021 +0700
+
+    Update manage order by Dat Huynh
+
+commit eb8fac979c8bc630cddc7d44d15a251d73cc2027
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Tue Nov 30 19:18:20 2021 +0700
+
+    Update manage order by Dat Huynh
+
+commit b33fe7720cd23148069d73a79f8ee38d5a3dd6fe
+Author: Hồ Đức Trí <tri.ho_dt_bd@hcmut.edu.vn>
+Date:   Tue Nov 30 18:31:25 2021 +0700
+
+    update animation by Tri
+
+commit 0d1d9a2c3175a804744062a3e1147887d4059417
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Tue Nov 30 01:17:51 2021 +0700
+
+    Update some change by Dat Huynh
+
+commit d1b91323d7f7f632a7930428fe4de6e75fd5373f
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Tue Nov 30 00:16:23 2021 +0700
+
+    Update star vote and star of food by Dat Huynh
+
+commit 32dc7ce4400f2146f786941ca0edd27f4a916a49
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Mon Nov 29 21:43:31 2021 +0700
+
+    Update star vote and star of food by Dat Huynh
+
+commit bb1e7e5f3c442f37f89ad432c924da6aa0189e30
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Mon Nov 29 20:08:15 2021 +0700
+
+    Update star vote and star of food by Dat Huynh
+
+commit 12996ece1a4e0571b3b737d419f8372a9d1cf405
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Mon Nov 29 06:45:19 2021 +0700
+
+    Update star vote and star of food by Dat Huynh
+
+commit 6fa5607658e9a62bb748958523915594558d6e57
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Mon Nov 29 06:37:50 2021 +0700
+
+    Update star vote and star of food by Dat Huynh
+
+commit 8ab6cff3c0dc63ec33eabd9b69c491e01c705e2b
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Mon Nov 29 06:26:53 2021 +0700
+
+    Update star vote and star of food by Dat Huynh
+
+commit 93632e62154229cfffd492cddb27abc9bd36ce99
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Mon Nov 29 06:26:43 2021 +0700
+
+    Update star vote and star of food by Dat Huynh
+
+commit 420eaea91ff907a302982289f3ea452b606f4179
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Mon Nov 29 02:02:54 2021 +0700
+
+    Update star vote by Dat Huynh
+
+commit dd7884ea4b75e0983985e4b30844418912c656f9
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Mon Nov 29 01:57:36 2021 +0700
+
+    Update star vote by Dat Huynh
+
+commit 1734014355db4944bef39acf55645ced712ac625
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Mon Nov 29 01:53:55 2021 +0700
+
+    Update star vote by Dat Huynh
+
+commit 2dadd697e5741ff0ad1154187dd8c75029cdfb8e
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Mon Nov 29 01:52:25 2021 +0700
+
+    Update star vote by Dat Huynh
+
+commit 46f4fd9f8d018a9d522c9909cda2b5a1e5e71885
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Sun Nov 28 21:38:40 2021 +0700
+
+    update menu.js
+
+commit 151564038431b78dd342486916137bf079f0a7bb
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Sun Nov 28 20:54:57 2021 +0700
+
+    Update interface, feedback, order by Dat Huynh
+
+commit 6e4853c34c7b748dbd3a496c93e3e42445825c87
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Sun Nov 28 20:39:49 2021 +0700
+
+    Update database of food by Dat Huynh
+
+commit be15b00cbecff6d01efb0f85c6d2586daf5ebcce
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Sun Nov 28 20:21:20 2021 +0700
+
+    Update database of food by Dat Huynh
+
+commit 6a7efab57673ec2c8cac38cdf23958a153839d3c
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Sun Nov 28 18:12:06 2021 +0700
+
+    Update database of food by Dat Huynh
+
+commit 6d4346ef45d2384ad28805fe219e42fa36addbb9
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Sun Nov 28 06:02:22 2021 +0700
+
+    Update interface by Dat Huynh
+
+commit 9ddeb1e5e503b1f1e54ed4b55268b9354135d2fc
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Sun Nov 28 05:36:53 2021 +0700
+
+    Update interface by Dat Huynh
+
+commit c747d8df230394be467026fc051e27e2c5a470fc
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Sun Nov 28 05:22:37 2021 +0700
+
+    Update interface by Dat Huynh
+
+commit 1a7e517b36451e8b1136deed846a232ca479c4ab
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Sun Nov 28 05:11:27 2021 +0700
+
+    Update interface by Dat Huynh
+
+commit 92cb76b67d7f6f65432705a18c855fdd4c6099ea
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Sat Nov 27 21:08:06 2021 +0700
+
+    Update voucher by Dat Huynh
+
+commit 7c800d5cd58cfb790701f76fbe4353b082e58ab1
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Sat Nov 27 17:15:15 2021 +0700
+
+    Update interface by Dat Huynh
+
+commit 3a492920d40b0ad824b002cd5b09940b64479023
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Sat Nov 27 16:54:03 2021 +0700
+
+    Update change information by Dat Huynh
+
+commit 71b614b4ad5f59caf0136fe5928db7ceb1529a6b
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Sat Nov 27 16:33:18 2021 +0700
+
+    Small change
+
+commit 93be438cef8c7d8414e352457716245ceeabc367
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Sat Nov 27 16:20:26 2021 +0700
+
+    Update form validation, payment page
+
+commit 1bd6552e897b7673b0c01212d7a6a1d0b0707b2c
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Fri Nov 26 16:31:49 2021 +0700
+
+    Update cookie by Dat Huynh
+
+commit 000a077ac8e6ee7efd6aea4d3e9a6f506edaa018
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Fri Nov 26 02:29:18 2021 +0700
+
+    Update full account features by Dat Huynh
+
+commit d3dbcb04809d91fd6c5636740868895ca44ff1aa
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Fri Nov 26 02:24:51 2021 +0700
+
+    Update full account features by Dat Huynh
+
+commit bb58e60ca247b9e07eba63f7bb5598482ccc52dd
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Fri Nov 26 02:15:12 2021 +0700
+
+    Update full account features by Dat Huynh
+
+commit b9b96f9be94c1cbe10ac9c9f80c752f9ef143fea
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Fri Nov 26 01:44:06 2021 +0700
+
+    Update full account features by Dat Huynh
+
+commit c54a0b3a1a2a6313c1d65e4540edb0c51e876d89
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Fri Nov 26 00:39:39 2021 +0700
+
+    Update full account features by Dat Huynh
+
+commit 85c8cf06ba0ae2428b9a96c8a6c2e5077c2ed94d
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Fri Nov 26 00:19:16 2021 +0700
+
+    Update full account features by Dat Huynh
+
+commit 3486bbabc57f4b1d0f4c64841931b2e6d4f3d2f7
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Fri Nov 26 00:09:09 2021 +0700
+
+    Update full account features by Dat Huynh
+
+commit 5fe8e36e8fc4eaacaf7e5e90f2c490f7984a0328
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Fri Nov 26 00:04:24 2021 +0700
+
+    Update full account features by Dat Huynh
+
+commit af0bc46f1ade0b86b7fd4afb1c432f3c0a027c33
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 25 20:25:06 2021 +0700
+
+    Update forget password interface by Dat Huynh
+
+commit 135b209512049724f62ef5d7325f1a51cbd4b46e
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 25 20:04:47 2021 +0700
+
+    Update forget password interface
+
+commit fc848192033660cbd5626ca7fd0b434f0dde4a60
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 25 20:01:18 2021 +0700
+
+    Update forger password interface
+
+commit d25a6ab34394cde6aab449a699237f414e9f5489
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 25 16:17:34 2021 +0700
+
+    Update backend by Dat Huynh
+
+commit 941cfd1e7029dd9d2771bc0c6e1732a7b6552673
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 25 16:09:44 2021 +0700
+
+    Update backend by Dat Huynh
+
+commit 1097cfd411ac716bff968cdec9da70aead1df726
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 25 15:38:36 2021 +0700
+
+    Update backend by Dat Huynh
+
+commit 4200897aeb4462bc597c0fedc18dfb02146aae66
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 25 15:23:23 2021 +0700
+
+    Update backend by Dat Huynh
+
+commit c86e1594d82c8b1554ebc6f7c8ba286ec77cf4e7
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 25 00:14:16 2021 +0700
+
+    Update backend by Dat Huynh
+
+commit d97582b05eae7c55f58bcb4410c0cb5722aff4b1
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Nov 24 20:55:15 2021 +0700
+
+    Update backend by Dat Huynh
+
+commit c2f544d7b99644d133492183c245266917cd11fd
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Nov 24 20:52:07 2021 +0700
+
+    Update backend by Dat Huynh
+
+commit 74db639a7eab1e33e64a7b2ef63e2ffe3946c117
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Nov 24 20:51:59 2021 +0700
+
+    Update backend by Dat Huynh
+
+commit 0ec9a5f9c3c315df238bc35246dfdb989bb80c6d
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Nov 24 20:14:20 2021 +0700
+
+    Update backend by Dat Huynh
+
+commit 62588a64fa1a9d7009654ae1d22e74d4003cd6af
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Nov 24 19:30:27 2021 +0700
+
+    Update backend by Dat Huynh
+
+commit 8239faa8bffc16f83657a4ee48a67d8f9a0c9af0
+Merge: bb6a7a6 3aafba3
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Nov 24 19:27:37 2021 +0700
+
+    Update backend by Dat Huynh
+
+commit bb6a7a6d0bd77905744b4ffd6164080c95565fa7
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Nov 24 19:20:39 2021 +0700
+
+    Update backend by Dat Huynh
+
+commit 0a37f1fda02793f04c40030bac46bc3267ddc9a0
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Nov 24 19:11:49 2021 +0700
+
+    Update backend by Dat Huynh
+
+commit bdae8f2f285be1af89284c6c1381e5e95c7b55b5
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Nov 24 19:04:53 2021 +0700
+
+    Update backend by Dat Huynh
+
+commit 3aafba3640a755fad8878be25913cad81d4e3a47
+Merge: 5386ebb e1d64f9
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Sat Nov 13 11:31:10 2021 +0700
+
+    Merge branch 'main' of https://github.com/spitliner/CNPM-DN into thinh
+    
+    Fix menu conflict
+
+commit 5386ebb025574351bc23d1c6ddd122de314b9a1e
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Sat Nov 13 11:20:37 2021 +0700
+
+    Add button and cart context for menu page
+
+commit e1d64f9305ff0536787ebf86d8e75a516a40c2fc
+Author: spitliner <73539619+spitliner@users.noreply.github.com>
+Date:   Fri Nov 12 09:30:12 2021 +0000
+
+    Delete Categories.js
+
+commit cad7074f364b9dbd770d5e9ed21804b812ec3be7
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Fri Nov 12 15:29:19 2021 +0700
+
+    Add button and cart context for order page
+
+commit 69ff5248a673735a488d834fda2d13b28bd76597
+Author: spitliner <73539619+spitliner@users.noreply.github.com>
+Date:   Fri Nov 12 07:39:21 2021 +0000
+
+    Create Categories.js
+
+commit dca834b149403b79479fe3aaaca2e2d3a1b5388b
+Author: spitliner <73539619+spitliner@users.noreply.github.com>
+Date:   Fri Nov 12 07:06:31 2021 +0000
+
+    Update Menu.js
+
+commit b4d365aff2f891e0ef5f973aefb1aedbf653fa83
+Author: spitliner <73539619+spitliner@users.noreply.github.com>
+Date:   Fri Nov 12 02:27:14 2021 +0000
+
+    Update Order.css
+
+commit 1a8b3f187e3fd951a9357d75b2a6d0b5de14e1fa
+Author: spitliner <73539619+spitliner@users.noreply.github.com>
+Date:   Fri Nov 12 02:26:30 2021 +0000
+
+    Update Order.js
+
+commit 333d38c1cc26fc539fc3b69ccb315a75ad0eddfe
+Merge: b66113d 1ad09b8
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Fri Nov 12 09:18:53 2021 +0700
+
+    Merge branch 'main' of https://github.com/spitliner/CNPM-DN into Dat
+
+commit b66113d6a38f58023e38eec4fe66cad9e2f20a97
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Fri Nov 12 09:14:18 2021 +0700
+
+    Update backend by Dat Huynh
+
+commit 1ad09b8e82041522b6e178f38ffe337e5e620a66
+Merge: cee3f9a 2763d45
+Author: spitliner <73539619+spitliner@users.noreply.github.com>
+Date:   Thu Nov 11 18:50:45 2021 +0000
+
+    Merge pull request #2 from spitliner/spitliner-patch-image-Order-bug
+    
+    Fix image bug in Order.js
+
+commit 2763d4522583fb55cf9ae527b23e0bca92d5a117
+Author: spitliner <73539619+spitliner@users.noreply.github.com>
+Date:   Thu Nov 11 18:50:29 2021 +0000
+
+    Fix image bug in Order.js
+
+commit cee3f9a526af27da11d7a418c1c918de292d3dfd
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 11 23:47:35 2021 +0700
+
+    Update backend by Dat Huynh
+
+commit 09de3264e90a9613655804befe8da7924f36c44e
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 11 23:46:45 2021 +0700
+
+    Update
+
+commit c4137d647be3d091107ef529c5a3edaad13ca1b1
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 11 23:45:07 2021 +0700
+
+    Update
+
+commit a8251471f0e80c49fb80304aeefc72d79c8bace9
+Merge: edea2f1 e442384
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 11 23:17:55 2021 +0700
+
+    Merge branch 'main' of https://github.com/spitliner/CNPM-DN into Dat
+
+commit edea2f14f1ec1b625e0f4eb883004a9d40784ecf
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 11 23:17:44 2021 +0700
+
+    Update
+
+commit 3894f2dce6a8dd028db2c51c67a9020189b45c1b
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 11 23:15:42 2021 +0700
+
+    Update
+
+commit e44238481c6a4bd520008015689fb10f83e64c92
+Merge: 6e90ed0 ab2ff85
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 11 23:14:26 2021 +0700
+
+    Merge branch 'Dat'
+
+commit ab2ff85aaf8332db6b662cfddb7668aef1df77bd
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 11 23:14:03 2021 +0700
+
+    Update
+
+commit 6e90ed051b70c2aef7405047f4c81e3490ec94a7
+Merge: a13f287 2bcf879
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 11 23:11:57 2021 +0700
+
+    Merge branch 'Dat'
+
+commit 2bcf879b8c70876535d3edf9a96b1de0f8539690
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 11 23:10:58 2021 +0700
+
+    Update
+
+commit 273a303490dc56073788d5fb845840e881b8f8f7
+Merge: 5345b52 e63402f
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 11 23:06:20 2021 +0700
+
+    Merge branch 'main' of https://github.com/spitliner/CNPM-DN into Dat
+
+commit a13f287b3e3292502e83b2fb9ab6c98a277c5553
+Merge: e63402f 5345b52
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 11 23:04:57 2021 +0700
+
+    Merge branch 'Dat'
+
+commit 5345b5258d9df07353e7f9dad9b38c44449d417d
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 11 23:03:47 2021 +0700
+
+    Update
+
+commit e63402fda3a20940817cdc6d7ddda01eb1b42149
+Merge: 87ecc45 43739b0
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 11 23:00:09 2021 +0700
+
+    Merge branch 'main' of https://github.com/spitliner/CNPM-DN
+
+commit 87ecc45ac4d4f5a1918d3caf13449e28e972ee53
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Thu Nov 11 22:53:13 2021 +0700
+
+    Update
+
+commit 43739b0ac5176286affc7f5c41b668442c340d40
+Merge: 11fefe4 d6b73d7
+Author: spitliner <73539619+spitliner@users.noreply.github.com>
+Date:   Thu Nov 11 12:53:19 2021 +0000
+
+    Merge pull request #1 from spitliner/spitliner-Order-patch
+    
+    Update Order.js
+
+commit 11fefe483768d2df996b804da707231144e00114
+Author: spitliner <73539619+spitliner@users.noreply.github.com>
+Date:   Wed Nov 10 18:18:35 2021 +0000
+
+    Add files via upload
+
+commit d6b73d726241c97b006f39d9a629536f6fc3e59e
+Author: spitliner <73539619+spitliner@users.noreply.github.com>
+Date:   Wed Nov 10 18:16:10 2021 +0000
+
+    Update Order.js
+    
+    Thêm code để tạo trang order căng bản
+
+commit 6a6afecf9d6c589156c76b177b2bd376a163bfd8
+Merge: 1e35cd8 15b9cd9
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Wed Nov 10 18:47:01 2021 +0700
+
+    Merge branch 'main' of https://github.com/spitliner/CNPM-DN into thinh
+
+commit 1e35cd87011a394f857667d211f9411e4d13735b
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Wed Nov 10 18:43:40 2021 +0700
+
+    Add context for cart
+
+commit 15b9cd9dad8a8836d6ba06d822d0e8d8d116b04d
+Author: hdthinh1012 <58225765+hdthinh1012@users.noreply.github.com>
+Date:   Wed Nov 10 16:51:41 2021 +0700
+
+    Update README.md
+
+commit 88db3b0cfc8ac093c28c8dca796b941b62b8c064
+Author: hdthinh1012 <58225765+hdthinh1012@users.noreply.github.com>
+Date:   Wed Nov 10 16:49:32 2021 +0700
+
+    Update README.md
+
+commit 5a31f77187fabcb21eb9d0a3916defa7cad0a173
+Author: hdthinh1012 <58225765+hdthinh1012@users.noreply.github.com>
+Date:   Wed Nov 10 16:49:11 2021 +0700
+
+    Update README.md
+
+commit 575266e5ecd86724819177da31aa84468d034cce
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Wed Nov 10 16:43:07 2021 +0700
+
+    Add axios call for login, register
+
+commit 30e32f3c47163aaa898681f959303b7ad21df134
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Wed Nov 10 09:44:37 2021 +0700
+
+    reposition import axios
+
+commit 7a400de3f26368d9f56fe3c4b8921daea7ab597d
+Merge: 174efa1 24b7c1c
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Wed Nov 10 09:36:53 2021 +0700
+
+    Merge branch 'main' of https://github.com/spitliner/CNPM-DN into thinh
+
+commit 24b7c1cc05d52283c913efc06abcfc826ee56d8d
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Nov 10 07:51:49 2021 +0700
+
+    Login and Register
+
+commit 4a8b544e69316cb91ed7d7815a7efd4c26eb2e3a
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Nov 10 07:41:15 2021 +0700
+
+    Login and Register
+
+commit 521bd6a8fbf81a10d9d9d3d81b7eabe3c791607e
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Wed Nov 10 05:44:40 2021 +0700
+
+    Login
+
+commit 174efa15a0d3bdeb6097f7e1dbeff09ad0ef676e
+Merge: 6a9f6d3 ec0d531
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Wed Nov 10 01:30:06 2021 +0700
+
+    Merge branch 'main' of https://github.com/spitliner/CNPM-DN into thinh
+    Merge main to thinh
+
+commit 6a9f6d3e59904132d34776ddaad53c3c1c31c73a
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Wed Nov 10 01:21:51 2021 +0700
+
+    Add user context, navbar conditon render
+
+commit df35354b3b51017ad15b8ebbcb2459d03cfaa4bb
+Author: dat.huynh11082001@hcmut.edu.vn <dat.huynh11082001@hcmut.edu.vn>
+Date:   Tue Nov 9 23:59:46 2021 +0700
+
+    Init backend
+
+commit ec0d5314f277e4948b192ed390519f5a89985092
+Author: Hồ Đức Trí <tri.ho_dt_bd@hcmut.edu.vn>
+Date:   Tue Nov 9 21:24:38 2021 +0700
+
+    menu detail
+
+commit bcda67c59cad40a85fe7e89096756a41719cac93
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Tue Nov 9 01:54:05 2021 +0700
+
+    Add reservation form, show user-friendly input error
+
+commit ba3756de4c11268ca145f259ebfc697d795d268f
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Mon Nov 8 17:57:34 2021 +0700
+
+    Temporary Login Form, Register Form, NavBar, Footer
+
+commit 151b66198664c1a4e004f789c1cdd01d64132424
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Sun Nov 7 21:58:18 2021 +0700
+
+    Add bootstrap icon
+
+commit 01b176f35d045f8d2870ade2e37f5bd56cc7aab2
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Sun Nov 7 21:36:52 2021 +0700
+
+    Add bootstrap cdn
+
+commit fb08baec9c6cdac20ca842afd346841f581b6b4d
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Sun Nov 7 19:56:29 2021 +0700
+
+    Add bootstrap, delete unused bile
+
+commit 314db61dddb892b3b5d6d783955dc07274cc2f15
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Sun Nov 7 16:25:06 2021 +0700
+
+    Delete some unused code
+
+commit 9bdcffcf85f6bce22c232d5058c70a1ea43d47c6
+Author: hdthinh1012 <hdthinh01@gmail.com>
+Date:   Sun Nov 7 16:02:32 2021 +0700
+
+    Setup template code
+
+commit af880592ee7876df564935b28377943d64e13066
+Author: spitliner <73539619+spitliner@users.noreply.github.com>
+Date:   Wed Nov 3 01:15:07 2021 +0000
+
+    Create main.script.js
+
+commit 7bc52d417b239b666d0a8c857b4fe61519809157
+Author: spitliner <73539619+spitliner@users.noreply.github.com>
+Date:   Wed Nov 3 01:14:42 2021 +0000
+
+    Create main.style.css
+
+commit 8ac3bc818a6133350b1a9a9a426a56ace5e3ef56
+Author: spitliner <73539619+spitliner@users.noreply.github.com>
+Date:   Wed Nov 3 01:14:02 2021 +0000
+
+    Add files via upload
+
+commit 195bc00bf67d952a61e13f9f695e0d31a6582081
+Author: spitliner <73539619+spitliner@users.noreply.github.com>
+Date:   Wed Nov 3 01:13:31 2021 +0000
+
+    Initial commit

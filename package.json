@@ -1,0 +1,7 @@
+{
+    "dependencies": {
+        "prop-types": "^15.7.2",
+        "react-select": "^5.2.1",
+        "rechart": "^0.0.1"
+    }
+}

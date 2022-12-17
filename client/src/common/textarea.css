@@ -1,0 +1,8 @@
+textarea {
+  background-color: #efefef;
+  color: red;
+  padding: 30px 30px;
+  line-height: 28px;
+  border: none;
+  resize: none;
+}

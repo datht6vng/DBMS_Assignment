@@ -1,0 +1,16 @@
+.bi-cart3 {
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.log-out-nav-link:hover {
+  cursor: pointer;
+}
+
+a.nav-link:hover {
+  cursor: pointer;
+}

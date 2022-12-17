@@ -1,0 +1,48 @@
+@keyframes example {
+    from{
+      opacity: 0;
+      transform: scale(0.3);
+      filter: hue-rotate(180deg);
+    }
+    to{
+      opacity: 1;
+      transform: scale(1);
+      filter: hue-rotate(0deg);
+    }
+  }
+
+.title {
+    animation: example 1000ms ease-in-out;
+    animation-fill-mode: backwards;
+    transition: transform .2s;
+}
+
+.text-wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2% 2% 2% 2%;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 120%;
+    text-align: justify;
+
+    animation: example 1000ms ease-in-out;
+    animation-fill-mode: backwards;
+    transition: transform .2s;
+}
+
+.text-wrapper
+{
+  animation-delay: calc(6*var(--stagger-delay));
+}
+
+.introduction-background {
+    background-image: url("../images/i.jpg");
+    background-size: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    --stagger-delay:100ms;
+}

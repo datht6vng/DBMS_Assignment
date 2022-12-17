@@ -1,0 +1,343 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: hsl(210, 36%, 96%);
+  color: hsl(209, 61%, 16%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+
+p {
+  margin-bottom: 1.25rem;
+  color: hsl(210, 22%, 49%);
+}
+
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+@media screen and (min-width: 992px) {
+  .section {
+    width: 95vw;
+  }
+}
+
+.menu {
+  padding: 5rem 0;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+
+.underline {
+  width: 6rem;
+  height: 0.25rem;
+  background: #c59d5f;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-container {
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-btn {
+  background: transparent;
+  border-color: transparent;
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin: 0 0.5rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  border-radius: 0.25rem;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.filter-btn:hover {
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+.active {
+  border-bottom: 4px solid;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  gap: 3rem 2rem;
+  justify-items: center;
+  --stagger-delay: 100ms;
+}
+
+.menu-item {
+  display: grid;
+  gap: 1rem 2rem;
+  max-width: 25rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  animation: example 700ms ease-out;
+  animation-fill-mode: backwards;
+  transition: transform 0.2s;
+}
+
+.menu-item:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.photo {
+  height: 210px;
+  width: 275px;
+  border: none;
+  display: block;
+  border-radius: 10px;
+}
+
+.logo {
+  object-fit: cover;
+  height: auto;
+  width: 200px;
+  border-radius: 0.25rem;
+}
+
+.item-info header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-info h4 {
+  margin-bottom: 0.5rem;
+}
+
+.dish-name {
+  max-width: 200px;
+}
+
+.price {
+  height: 26px;
+  min-width: 80px;
+  background: #e1651f;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 10px;
+  padding-top: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.item-text {
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: black;
+}
+
+.sub-item-info {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-item {
+    display: grid;
+  }
+  .photo {
+    height: 210px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-center {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30.05px;
+  }
+  .photo {
+    height: 210px;
+  }
+}
+
+.cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 10px;
+  background: #e1651f;
+  border-radius: 25px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 10px 0px;
+  border: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 160%;
+  color: white;
+}
+
+.background {
+  background-image: url("../images/b.png");
+  background-size: 140%;
+}
+
+.welcome {
+  background-image: url("../images/d.jpg");
+  background-size: 100%;
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 300%;
+}
+
+.welcome-text {
+  animation: example 1200ms ease-in-out;
+  animation-fill-mode: backwards;
+  transition: transform 0.2s;
+}
+
+.menu-list-ratings {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.menu-list-star {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  transition: color 0.2s ease;
+  color: #ebebeb;
+}
+
+.menu-list-star:before {
+  content: "\2605";
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+}
+
+.menu-list-star.menu-list-selected {
+  color: #ffc700;
+}
+
+@keyframes example {
+  from {
+    opacity: 0;
+    transform: scale(0.3);
+    filter: hue-rotate(180deg);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+    filter: hue-rotate(0deg);
+  }
+}
+
+.menu-item:nth-child(1) {
+  animation-delay: calc(1 * var(--stagger-delay));
+}
+
+.menu-item:nth-child(2) {
+  animation-delay: calc(2 * var(--stagger-delay));
+}
+
+.menu-item:nth-child(3) {
+  animation-delay: calc(3 * var(--stagger-delay));
+}
+
+.menu-item:nth-child(4) {
+  animation-delay: calc(4 * var(--stagger-delay));
+}
+
+.menu-item:nth-child(5) {
+  animation-delay: calc(5 * var(--stagger-delay));
+}
+
+.menu-item:nth-child(6) {
+  animation-delay: calc(6 * var(--stagger-delay));
+}
+
+.menu-item:nth-child(7) {
+  animation-delay: calc(7 * var(--stagger-delay));
+}
+
+.menu-item:nth-child(8) {
+  animation-delay: calc(8 * var(--stagger-delay));
+}
+
+button:hover,
+.btn-confirm:hover,
+.post-button-BTM:hover,
+.post-button-ATC:hover,
+.confirm-btn:hover,
+.nav-link:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.2;
+  transition: transform 0.2s;
+}
+
+input:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.2;
+  transition: transform 0.2s;
+}
+
+.dish_btn:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  transition: 0.2;
+  transition: transform 0.2s;
+}

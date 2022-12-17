@@ -1,0 +1,216 @@
+@keyframes example {
+    from {
+        opacity: 0;
+        transform: scale(0.3);
+        filter: hue-rotate(180deg);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+        filter: hue-rotate(0deg);
+    }
+}
+
+.form-title {
+    animation: example 700ms ease-in-out;
+    animation-fill-mode: backwards;
+    transition: transform 0.2s;
+}
+
+.order_header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    flex: 1;
+}
+
+.order_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    max-width: 80%;
+    height: auto;
+    justify-content: space-between;
+    margin: auto;
+    font-weight: bold;
+    animation: example 700ms ease-in-out;
+    animation-fill-mode: backwards;
+    transition: transform 0.2s;
+    --stagger-delay: 100ms;
+}
+
+.order_main {
+    animation-delay: calc(4 * var(--stagger-delay));
+}
+
+.order_main>div {
+    margin: 15px;
+}
+
+.dish_display_box {
+    display: flex;
+    background-color: #eaeaeb;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+
+.dish_image_display {
+    width: 15%;
+    border-radius: 10px;
+}
+
+.dish_id {
+    font-family: Oleo Script Swash Caps;
+    font-size: 130%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    padding-top: 1%;
+}
+
+.dish_image {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.dish_name {
+    font-family: Oleo Script Swash Caps;
+    font-size: 130%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 20%;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+.dish_btn {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 5%;
+    justify-content: center;
+}
+
+.dish_quanity {
+    font-family: Oleo Script Swash Caps;
+    font-size: 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    padding-top: 1%;
+}
+
+.dish_price {
+    font-family: Oleo Script Swash Caps;
+    font-size: 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding-top: 1%;
+    padding-left: 10%;
+}
+
+.order_list {
+    display: flex;
+}
+
+.total_cost {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.payment_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirm-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #e1651f;
+    padding: 16px 28px 16px 28px;
+    text-decoration: none;
+    border: none;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.alert-message {
+    font-size: 300%;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.order_main .btn-confirm {
+    width: 30%;
+}
+
+.remove-voucher-button {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    /* white */
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 28px;
+    /* primary */
+    background: #e1651f;
+    border-radius: 39px;
+    border: none;
+    /* Inside Auto Layout */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    animation: example 700ms ease-out;
+    animation-fill-mode: backwards;
+    transition: transform 0.2s;
+    width: 30%;
+}
+
+.forget-password-form-body .remove-voucher-button {
+    width: 30%;
+}

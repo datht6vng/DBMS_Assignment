@@ -1,0 +1,47 @@
+
+version: '3'
+services:
+  couchdb:
+    image: couchdb
+    restart: always
+    ports:
+      - "5984:5984"
+    environment:
+      - COUCHDB_USER=admin
+      - COUCHDB_PASSWORD=admin
+    volumes:
+        - ./dbdata:/opt/couchdb/data
+  
+  # server:
+  #   image: node:alpine
+  #   volumes:
+  #     - ./server:/server
+  #   working_dir: /server
+  #   command: >
+  #     sh -c "yarn install && yarn start"
+  #   restart: always
+  #   ports:
+  #     - "8080:8080"
+  
+  # client:
+  #   image: node:alpine
+  #   volumes:
+  #     - ./client:/client
+  #   working_dir: /client
+  #   ports:
+  #     - "3000:3000"
+  #   command: >
+  #     sh -c "yarn install && yarn start"
+
+  my-mongodb:
+    image: mongo:bionic
+    ports:
+      - 27017:27017
+    environment:
+      - MONGO_INITDB_DATABASE=AppDB
+    volumes:
+      # seeding scripts
+      - ./mongo-entrypoint:/docker-entrypoint-initdb.d
+      # named volumes
+      # - mongodb:/data/db
+      # - mongoconfig:/data/configdb
